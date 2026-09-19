@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checo Pérez | Piloto de Fórmula 1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="hero">
+        <nav class="navbar">
+            <div class="logo">CHECO<span>PEREZ</span></div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#biografia">Biografía</a></li>
+                <li><a href="#logros">Logros</a></li>
+                <li><a href="#datos">Datos Clave</a></li>
+            </ul>
+        </nav>
+        <div id="inicio" class="hero-content">
+            <h1>Sergio "Checo" Pérez</h1>
+            <p id="tagline" class="tagline">Piloto mexicano de Fórmula 1</p>
+            <p class="team">Oracle Red Bull Racing · #11</p>
+            <a href="#biografia" class="btn-primary">Conoce su historia</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="biografia" class="section">
+            <div class="section-title reveal">
+                <h2>Su Biografía</h2>
+                <span class="line"></span>
+            </div>
+            <div class="bio-content reveal">
+                <div class="bio-text">
+                    <p>
+                        Sergio Michel "Checo" Pérez Mendoza nació el <strong>26 de enero de 1990</strong> en
+                        Guadalajara, Jalisco, México. Es uno de los pilotos mexicanos más exitosos en la
+                        historia de la Fórmula 1.
+                    </p>
+                    <p>
+                        Debutó en la máxima categoría del automovilismo en <strong>2011</strong> con el equipo
+                        Sauber. A lo largo de su carrera ha competido para equipos como McLaren, Force India,
+                        Racing Point y, desde <strong>2021</strong>, forma parte de Red Bull Racing, donde se
+                        convirtió en el mejor apoyador de Max Verstappen y en un especialista del cuidado de
+                        neumáticos.
+                    </p>
+                    <p>
+                        Es famoso por su habilidad para hacer durar las llantas más que sus rivales y por su
+                        carisma dentro y fuera de las pistas, que lo han convertido en un ídolo para el
+                        público mexicano.
+                    </p>
+                </div>
+                <div class="bio-stats">
+                    <div class="stat-card">
+                        <span class="stat-number">1990</span>
+                        <span class="stat-label">Año de nacimiento</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">2011</span>
+                        <span class="stat-label">Debut en F1</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">6</span>
+                        <span class="stat-label">Victorias en F1</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="logros" class="section dark">
+            <div class="section-title reveal">
+                <h2>Logros Destacados</h2>
+                <span class="line"></span>
+            </div>
+            <div class="cards reveal">
+                <div class="card">
+                    <div class="card-icon">🥇</div>
+                    <h3>Primer Gran Premio</h3>
+                    <p>Ganó el Gran Premio de Sakhir 2020, su primera victoria en la Fórmula 1 tras 190 carreras.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🇲🇽</div>
+                    <h3>Héroe en México</h3>
+                    <p>Único piloto mexicano en subir al podio en el Gran Premio de México, ante su afición.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🏆</div>
+                    <h3>Podios subcampeón</h3>
+                    <p>Varias temporadas consecutivas terminando como subcampeón del mundial siendo compañero de equipo de Verstappen.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="datos" class="section">
+            <div class="section-title reveal">
+                <h2>Datos Clave</h2>
+                <span class="line"></span>
+            </div>
+            <div class="table-wrap reveal">
+                <table>
+                    <tr>
+                        <th>Nombre completo</th>
+                        <td>Sergio Michel Pérez Mendoza</td>
+                    </tr>
+                    <tr>
+                        <th>Fecha de nacimiento</th>
+                        <td>26 de enero de 1990</td>
+                    </tr>
+                    <tr>
+                        <th>Lugar de nacimiento</th>
+                        <td>Guadalajara, Jalisco, México</td>
+                    </tr>
+                    <tr>
+                        <th>Equipo actual</th>
+                        <td>Oracle Red Bull Racing</td>
+                    </tr>
+                    <tr>
+                        <th>Número</th>
+                        <td>#11</td>
+                    </tr>
+                    <tr>
+                        <th>Carreras en F1</th>
+                        <td id="carreras">250+</td>
+                    </tr>
+                    <tr>
+                        <th>Victorias</th>
+                        <td id="victorias">6</td>
+                    </tr>
+                    <tr>
+                        <th>Podios</th>
+                        <td id="podios">39</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <section class="section cta">
+            <h2 id="contador-titulo" class="reveal">Días desde su debut en la F1</h2>
+            <div id="contador" class="contador reveal">Calculando...</div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Hecho con ❤ para los fans de Checo Pérez — Guadalajara, México</p>
+    </footer>
+
+    <button id="btn-arriba" title="Volver arriba">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
